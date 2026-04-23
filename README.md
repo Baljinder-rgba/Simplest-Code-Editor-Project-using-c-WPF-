@@ -3,5 +3,5 @@
 
 A simple/minimal Code Editor made using C# and WPF(Windows Presentation Foundation)
 
-<img src="./image.png" alt="Alt text" width="100%"/>
+<img src="./bEdit_Icon.png" alt="Alt text" width="100%"/>
 
