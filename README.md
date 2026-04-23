@@ -5,3 +5,7 @@ A simple/minimal Code Editor made using C# and WPF(Windows Presentation Foundati
 
 <img src="./showcase_pics/show_pic.png" alt="Alt text" width="100%"/>
 
+Features:
+📗 Simplistic Design
+📕 Save + Open File Feature
+👩🏽‍💻Syntax Highlighting Feature
