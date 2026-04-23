@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Highlighting\**" />
+    <EmbeddedResource Remove="Highlighting\**" />
+    <None Remove="Highlighting\**" />
+    <Page Remove="Highlighting\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="bEdit_Icon.png" />
+    <None Remove="Fonts\JetBrainsMono-Regular.ttf" />
+    <None Remove="Pictures\bEdit_Icon.png" />
+    <None Remove="Themes\ModernAesthetic.xshd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quicker.AvalonEdit" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bEdit_Icon.png" />
+    <Resource Include="Fonts\JetBrainsMono-Regular.ttf" />
+    <Resource Include="Pictures\bEdit_Icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Themes\ModernAesthetic.xshd">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
